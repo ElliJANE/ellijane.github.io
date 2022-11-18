@@ -44,11 +44,27 @@ body, html {
   font-family: 'markteks';
 }
 
+.evepics {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.broadway-text{
+  color: #976C05FF;
+  font-family: 'markteks', Monaco, monospace;
+  font-size: 50px;
+}
+
 .contact {
   color: cornsilk;
   display: flex;
   justify-content: space-between;
 }
+
 .contact-text {
   align-self: center;
   width: 100%;
