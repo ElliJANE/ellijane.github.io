@@ -6,6 +6,15 @@
   }
 }
 
+@font-face {
+  font-family: 'markteks';
+  src: url('Marteks-Regular.otf') format("opentype");
+} 
+
+body, html {
+  font-family: “markteks”, Monaco, sans-serif;
+  margin: 0;
+}
 
 .awards img{
   width: 100%;
@@ -140,7 +149,7 @@ font-family: Monaco, monospace;
 }
 
 h1 {
-  font-family: Monaco, monospace;
+  font-family: 'markteks', Monaco, monospace;
   font-size: 35px;
 }
 
